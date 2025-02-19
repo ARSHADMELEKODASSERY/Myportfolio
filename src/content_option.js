@@ -20,7 +20,7 @@ const introdata = {
 const dataabout = {
   title: "about my self",
   aboutme:
-    "A passionate and dedicated FullStack developer with graduate, I have completed my postgraduate degree in Computer Science at R.V.S College of Arts and Science, Coimbatore, specialized in Data Science and Full Stack Development.With a strong foundation in front-end and back-end technologies, I aspire to become a Full Stack Developerwith great knowledge. My positive attitude, reliability, and commitment to learning make me a strong team player and a valuable asset in any development environment",
+    "A passionate and dedicated FullStack developer with graduate, I have completed my postgraduate degree in Computer Science at R.V.S College of Arts and Science, Coimbatore, specialized in Data Science and Full Stack Development.With a strong foundation in front-end and back-end technologies, I aspire to become a Full Stack Developer with great knowledge. My positive attitude, reliability, and commitment to learning make me a strong team player and a valuable asset in any development environment",
 };
 const worktimeline = [
   {
@@ -91,7 +91,7 @@ const skills = [
   },
   {
     name: "Mongo Db",
-    value: 85,
+    value: 65,
   },
   {
     name: "Data Visulizing using python",
@@ -99,7 +99,7 @@ const skills = [
   },
   {
     name: "Node",
-    value: 70,
+    value: 60,
   },
   {
     name: "Sql",
