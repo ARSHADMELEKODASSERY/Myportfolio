@@ -1,3 +1,11 @@
+import ArshadBg from "../src/assets/images/laptop.jpg"
+import inclisImg from "../src/assets/images/Inclips.png";
+import adrImage from "../src/assets/images/adrImage.png";
+import Alcohol from "../src/assets/images/Alcohols.png";
+import Students from "../src/assets/images/Students.png";
+import Bank from "../src/assets/images/Bank.png";
+import Print from "../src/assets/images/Printing.png";
+
 const logotext = "ARSHAD.";
 const meta = {
   title: "Arshad MK",
@@ -13,8 +21,7 @@ const introdata = {
     third: "Full Stack Developer",
   },
   description: "",
-  your_img_url:
-    "https://media-hosting.imagekit.io//6b7be8359adf49cd/arshadportfolioBG.png?Expires=1834383781&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=l0NAmx6EN1Ih8NU-3u1mC~KCVpNhnRBXB2RK1cg4tOU0XI2qrMnOk4fYDsoUOCIZMRI~rX9aDZiLXi415F19AuvtBcl4h2VzbYOgqkO1IFkIVZTHK8vqL03NrTguqjXdpy1VhgOWhsh~77hUFJTh5lrC6sdGoHxrDcEy1kruuH4FR0VQwdHRw~FXLZ-sv7wgVmFru61RFLF3dPIty6LPxQvlNFvd-YprxX41oOyor6zMpB2FPm3MdDwWyOlVmIVtXYQR95HNzvwadQ62izKUFUCLjzfUCEK9jdThMg0gT5u6J4Nf35KiFVPwrzENz-4X1CeWUwpwXlKzyB0bB-YaNg__",
+  your_img_url: ArshadBg
 };
 
 const dataabout = {
@@ -129,34 +136,34 @@ const services = [
 
 const dataportfolio = [
   {
-    img: "https://media-hosting.imagekit.io//8049e5c6c5454ee4/ship.jpg?Expires=1834398362&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=hasD~05CNzRVx2TWJy9XNcs-VgrgMm3Sh-0Oi3Fajh5w8COqDq6CEejYlcMLLzjO9ixHGRIsXuuPluqkk9FmUhRHtY2Tqqw2xhej6A2jJ6jszLgMss~YlasBXYzx4Jp3QZ8~3Yko4FDNE-r0ivnF0bhoBLjVLLk6gDywLX6mYbYd8I-BFGyWV-XaN6lHfoJrM1pF9qcpEjcH8HKYIrZoDpRGRhLHLcgpQj8C-gr7fUfuOx7vWqpA9MGZO6XZr1KGnbFX429AgD2hH6zN6NsyhQcA~f0ijj-Tz20xPN9lfUv57Ep~iHabNgfhEkLg9m-uKbbT2~eVooPQXhXVKDcYEQ__",
+    img: inclisImg,
     description:
       "Inclips is the platform for seamless marine survey management.",
     link: "https://inclipsmarine.com/",
   },
   {
-    img: "https://media-hosting.imagekit.io//ab8cc29ab8334554/sarga.png?Expires=1834402996&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=BNb2JroTqPf03~hPvn6HkgrjqgbUrOlhDbn4YZlN6wevFNfQLJOxJTNvoldG83WWZUZi5zYQhX3ZbdADP33B0b9edj9W91O4nsQu-sn-NUNn~WXUb1B-r5Ayd4EsERxM~THenTC8pIHcLGv9i-kx6ACzS8xCdrTbnjh6HGfxZyAMTFh-52jR8cPAFIE8Kdqu5W1Ws3CCtkKFH9lQ3WEZxYpxO4sc2qHEpyDka3gF3wj7YTfxf4kr1-zBT5hr8aG2NUJ7f9KG9eRm8aV4p761ebUoqfvVSSlwUJLwx8XtEU0wouOklD7RZ4wvp1PnL-ntaO3MkxxMyjlBYo8~fVQj1Q__",
+    img: Print,
     description:
       "Sarga Printing is a leader in offset printing, combining cutting-edge technology with exceptional craftsmanship to deliver top-quality prints. With a strong legacy of trust and innovation,",
     link: "http://64.227.153.239:8000/",
   },
   {
-    img: "https://media-hosting.imagekit.io//929e762ebbf44e5d/odredge.png?Expires=1834399536&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=XJEk~pJBKFoo1sk85E1jADE5F3co0RXVyNKfvNzrNNIKi995BW~nUQelcn~HbNYMjGB54yNNPS1h~Jj2VXe~m6L80dv0qxFjY9ToxPataS2ulMTMl6NURjTIS1tyijd4eBF8McplqjV4e1J9OtlVwmoCr5PqQFMZQ-JjuQmy1TDJrfA3R6OVXt9CoAimLm9dC7rGIrdQ43Qz6t8AzTHeDNsz~UAgCjT9EFZypKRJwji-XGLzXw9fMm9Gqaf5gcGeP49jNDq3Q3XiPL9BjkN1trN1q1f3PXogyu9CfkhuYs-M998SB9NSQqxXsilTizlkVa~I6BgHd6YiMneq4gZoLg__",
-    description: "The platform that seamlessly facilitates Online.",
+    img: adrImage,
+    description: "A platform providing efficient, cost-effective, on-demand online dispute resolution with its own set of rules and a panel of expert mediators and arbitrators",
     link: "https://adredge.com/",
   },
   {
-    img: "https://media-hosting.imagekit.io//aac15225844e4666/bank.jpeg?Expires=1834400269&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=2hp0Kq3ymJ3-t8uLCvyNJuGW5y54RNNj-K~zDbGxOmbzAe8fZ3QpFoKwYyEKoUnJZRzFC8HfC4FMLhIYfBMTQuueeepdTVDxtASJsA-Q7r2WuxAglRovjyBaeOOaYCMBOSXJj--Qe-2z2tFU6O1hn6xAzV60~Ap6TYxhsuxKsDwtrjnDu8mPR~LOPS76iKB5YdoORr1GcASOpchz5GQZOrpZ5J0b96lM4T-zFHxklw57A1P-oNwAhQhjJqLyRvtKP-gYYA82CRamz0LBOLiqcQsX0H2~WbwEBA3dmb2iGr0qZHamxLZ8eB7LKWZ1F4n59Eea-SurlYxWrIZYav8J2w__",
+    img: Bank,
     description: "Basic bank operation application.",
     code: "https://github.com/ARSHADMSC/BankApplication",
   },
   {
-    img: "https://media-hosting.imagekit.io//433ff8f597aa4a5a/alcohol.png?Expires=1834401941&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=U55bXMLXWg~zzFUiFLuuI9frb2HI~hSS~GaDtE8KNvmSu7G7OXnxZNI~rdrS8uPfvBqXUt39bMkd~FJ1suzW8AEXJkr-VSWynNBG9sr0WGLB697jEFvyZ5jLWHMcu1zazUMvFKc84k7D-6zDjnpy09XcGiEsIXO1bUTiQO736aN2C14aE78m6Vq~AZqKnepy-l5ahJdr1pvGCa0gpwm7Jak7YlKonz64BWa4SxGWUl-oeRM~qZPRTQjHmrXqzls5ZnbQBsvCvNuC5l-k6B2Ug-jNAsyei4kQ4T9~3txSqX6HCP2OjKe9Vh-S5B4dQMrmNKf9OjzWGXm-fr7Ba038TA__",
+    img: Alcohol,
     description: "Alcohol Consumption in Russia using R.",
     code: "https://github.com/ARSHADMSC/Alcohol_Consumption",
   },
   {
-    img: "https://media-hosting.imagekit.io//ed31e628303e4c3b/placemntdata.jpeg?Expires=1834403501&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Brj0bW0MOFRjklFRNpeqnUuApQAsPBKPB1rnDMahRELK55hTmviawMZH77LjaBBdrZyQI7OaPUNaSdXwJX5anCyp5K~lb-wRArpslee6VntlikBo~cdrfxAQAtl9PTvBQWVrHQ~WyFcuqwV65J-pZzvOkz1~9lmKLuZHk66UaOTS~SoCb6OR1wlY1YghW-TTuyfLAy7QkXKDpWiB5rP4OBraZ0U1cvKzhKB74uAw5VHhyDtab6CSIusQTSpFhtiblDenUwlovzd5dJ1OCzUPWpTHB~Mm~TlNFGWLYKqoOOOLpTXvoOxsK04GKdLvANGFNgiJ6m0Yw3aLu1kj~lu~Cw__",
+    img: Students,
     description: "Real time placement data using R",
     code: "https://github.com/ARSHADMSC/Placement_data",
   },
